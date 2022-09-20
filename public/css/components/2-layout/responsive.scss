@@ -1,0 +1,338 @@
+// 1340px
+@include xxlg-xxxlg {
+  // base start
+  h1 {
+    font-size: 110px;
+  }
+  h2 {
+    font-size: 100px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  body {
+    font-size: 24px;
+  }
+  p {
+    &.sm {
+      font-size: 18px;
+    }
+  }
+  .button {
+    &.primary {
+      padding: 14px 30px;
+      font-size: 20px;
+    }
+    &__row {
+      .button {
+        padding: 14px;
+      }
+    }
+  }
+  .socials {
+    &__link {
+      margin-right: 12px;
+      width: 42px;
+      height: 42px;
+      &.telegram {
+        &::before {
+          width: 24px;
+          height: 24px !important;
+        }
+      }
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  @include footer-xxlg-xxxlg;
+  // base end
+  // index start
+  @include intro-xxlg-xxxlg;
+  @include info-xxlg-xxxlg;
+  @include future-xxlg-xxxlg;
+
+  // index end
+}
+// 1180px
+@include xlg-xxlg {
+  // base start
+  h1 {
+    font-size: 100px;
+  }
+  h2 {
+    font-size: 90px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  body {
+    font-size: 20px;
+  }
+  // base end
+}
+// 1024px
+@include lg-xlg {
+  .auto__container {
+    padding: 0 50px;
+  }
+  h1 {
+    font-size: 90px;
+  }
+  h2 {
+    font-size: 70px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  body {
+    font-size: 18px;
+  }
+  p {
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  .button {
+    &.primary {
+      font-size: 18px;
+    }
+  }
+  .socials {
+    &__link {
+      margin-right: 10px;
+      width: 34px;
+      height: 34px;
+      &.telegram {
+        &::before {
+          width: 18px;
+          height: 18px !important;
+        }
+      }
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+  @include footer-lg-xlg;
+  // base end
+  // index start
+  @include frames-lg-xlg;
+  @include intro-lg-xlg;
+  @include info-lg-xlg;
+  @include future-lg-xlg;
+
+  // index end
+}
+// 860px
+@include md-lg {
+  // base start
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 54px;
+  }
+  body {
+    font-size: 15px;
+  }
+  .button {
+    &__row {
+      max-width: 450px;
+      margin: 0 -5px;
+      .button {
+        width: calc(33.3% - 10px);
+        margin: 5px;
+      }
+    }
+  }
+  .socials {
+    &__link {
+      width: 34px;
+      box-sizing: border-box;
+      height: 34px;
+      &.telegram {
+        &::before {
+          width: 20px;
+          height: 20px !important;
+        }
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  // base end
+  // index start
+  @include intro-md-lg;
+  @include info-md-lg;
+  @include future-md-lg;
+
+  // index end
+}
+// 700px
+@include sm-md {
+  // base start
+  h1 {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 46px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
+  p {
+    &.sm {
+      font-size: 13px;
+      &.gray {
+        font-size: 9px;
+      }
+    }
+  }
+  .button {
+    &.primary {
+      padding: 9px 24px;
+      font-size: 16px;
+    }
+    &__row {
+      max-width: 360px;
+      .button {
+        padding: 9px;
+        box-shadow: -5px 6px 9px -1px rgba(0, 0, 0, 0.26);
+        filter: drop-shadow(6px -5px 13px #b4b4b4);
+      }
+    }
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    .flowers {
+      order: 0;
+    }
+    .intro {
+      order: 1;
+    }
+    .info {
+      order: 2;
+    }
+    .frames {
+      order: 3;
+    }
+    .future {
+      order: 4;
+    }
+  }
+  @include footer-sm-md;
+  .set div:nth-child(1) {
+    width: 50px;
+  }
+  .set div:nth-child(2) {
+    width: 60px;
+  }
+  .set div:nth-child(3) {
+    width: 40px;
+  }
+  .set div:nth-child(4) {
+    width: 25px;
+  }
+  .set div:nth-child(5) {
+    width: 45px;
+  }
+  .set div:nth-child(6) {
+    width: 80px;
+  }
+  .set div:nth-child(7) {
+    width: 60px;
+  }
+  .set div:nth-child(8) {
+    width: 40px;
+  }
+  .set div:nth-child(9) {
+    width: 60px;
+  }
+  .set div:nth-child(10) {
+    width: 40px;
+  }
+  .set div:nth-child(11) {
+    width: 25px;
+  }
+  // base end
+  // index start
+  @include intro-sm-md;
+  @include frames-sm-md;
+  @include info-sm-md;
+  @include future-sm-md;
+  // index end
+}
+// 540px
+@include xsm-sm {
+  // base start
+  .auto__container {
+    max-width: 450px;
+    padding: 0 16px;
+  }
+  // base end
+  // index start
+  @include frames-xsm-sm;
+
+  // index end
+}
+// 460px
+@include xxsm-xsm {
+  // base start
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  body {
+    font-size: 10px;
+  }
+  p {
+    &.sm {
+      font-size: 13px;
+    }
+  }
+  .button {
+    font-size: 14px;
+  }
+  .socials {
+    &__link {
+      width: 28px;
+      box-sizing: border-box;
+      height: 28px;
+      margin-right: 8px;
+      &.telegram {
+        &::before {
+          width: 16px;
+          height: 16px !important;
+        }
+      }
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+  @include footer-xxsm-xsm;
+
+  // base start
+  // index start
+  @include intro-xxsm-xsm;
+  @include frames-xxsm-xsm;
+  @include info-xxsm-xsm;
+  @include future-xxsm-xsm;
+
+  // index end
+}
