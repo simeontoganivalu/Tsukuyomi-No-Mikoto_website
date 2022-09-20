@@ -29,7 +29,7 @@ export default function Socials() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="#"
+        href="https://www.instagram.com/tsukuyomimikoto_/"
         className="socials__link"
       >
         {insta}
