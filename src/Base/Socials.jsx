@@ -21,7 +21,7 @@ export default function Socials() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="#"
+        href="https://www.facebook.com/Tsukuyomi-No-Mikoto-105618775644337"
         className="socials__link"
       >
         {facebook}
