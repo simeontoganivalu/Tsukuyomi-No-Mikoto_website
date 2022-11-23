@@ -19,7 +19,7 @@ export default function Intro() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://app.uniswap.org/#/swap?outputCurrency=0x921fa0f0fe7e01e861b2cf583a54a8c3e9b40b1e&chain=mainnet"
+              href="https://app.uniswap.org/#/swap?outputCurrency=0x88ff74676591faa8317494df556bf45757c567A1&chain=mainnet"
               className="button primary"
             >
               Buy Now
