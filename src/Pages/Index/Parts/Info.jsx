@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Info() {
-  const value = "0x921fa0f0fe7e01e861b2cf583a54a8c3e9b40b1e";
+  const value = "0x88ff74676591faa8317494df556bf45757c567A1";
   function copy() {
     navigator.clipboard.writeText(value);
   }
