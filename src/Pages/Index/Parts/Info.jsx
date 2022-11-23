@@ -12,7 +12,7 @@ export default function Info() {
           <div className="info__inner-row">
             <div className="infoTag">V2 Now Live</div>
             <div className="infoTag">Contract Renounced</div>
-            <div className="infoTag">LP Locked for 88 years</div>
+            <div className="infoTag">LP Locked</div>
           </div>
           <div className="infoCopy">
             <button onClick={copy}>CA:{value}</button>
