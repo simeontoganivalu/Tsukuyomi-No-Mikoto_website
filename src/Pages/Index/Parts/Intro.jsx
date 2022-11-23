@@ -27,7 +27,7 @@ export default function Intro() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.dextools.io/app/ether/pair-explorer/0x754af604471d7dc3aac2f81f15097a13f93a8dc7"
+              href="https://www.dextools.io/app/en/ether/pair-explorer/0xb1ae9179adc780357b99298f0e5b0e2cb4d922a7"
               className="button primary"
             >
               Chart
