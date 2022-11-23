@@ -10,7 +10,7 @@ export default function Info() {
       <div className="auto__container">
         <div className="info__inner">
           <div className="info__inner-row">
-            <div className="infoTag">Buy/Sell Tax 2%</div>
+            <div className="infoTag">V2 Now Live</div>
             <div className="infoTag">Contract Renounced</div>
             <div className="infoTag">LP Locked for 88 years</div>
           </div>
