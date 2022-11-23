@@ -15,7 +15,7 @@ export const FutureModul = [
         Mikoto <br /> Nfts
       </>
     ),
-    text: "The Tsukuyomi Mikoto NFT Collection will consist of 8888 Sensei Styled Gods. Each NFT will be different in every way shape & form. There will be 88 Master Sensei NFTs that wield extra earning powerthus within the Gensanchi.",
+    text: "The Tsukuyomi Mikoto NFT Collection will consist of 888 Sensei Styled Gods. Each NFT will be different in every way shape & form. There will be 88 Master Sensei NFTs that wield extra earning powerthus within the Gensanchi.",
   },
   {
     id: "future-3",
