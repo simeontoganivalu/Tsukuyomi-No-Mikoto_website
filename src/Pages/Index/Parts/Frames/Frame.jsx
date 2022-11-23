@@ -1,5 +1,5 @@
 import React from "react";
-import TView from "./TView";
+impor TView from "./TView";
 import UniFrame from "./UniFrame";
 
 export default function Frame() {
